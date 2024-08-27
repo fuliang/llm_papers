@@ -8,7 +8,6 @@
 
 ## RLHF
 ### 2024
-### 2024
 - [A Dense Reward View on Aligning Text-to-Image Diffusion with Preference](https://arxiv.org/pdf/2402.08265)
   - Shentao Yang, Tianqi Chen, Mingyuan Zhou
   - Keyword: RLHF for Text-to-Image Generation, Dense Reward Improvement of DPO, Efficient Alignment
@@ -343,71 +342,6 @@
   - James MacGlashan, Mark K Ho, Robert Loftin, Bei Peng, Guan Wang, David Roberts, Matthew E. Taylor, Michael L. Littman
   - Keyword: Decision is influenced by current policy rather than human feedback, Learn from policy dependent feedback that converges to a local optimal
 
-## Codebases
-```
-format:
-- [title](codebase link) [links]
-  - author1, author2, and author3...
-  - keyword
-  - experiment environments, datasets or tasks
-```
-
-- [OpenRLHF](https://github.com/OpenRLHF/OpenRLHF)
-  - OpenRLHF
-  - Keyword: 70B, RLHF, DeepSpeed, Ray, vLLM
-  - Task: An Easy-to-use, Scalable and High-performance RLHF Framework (Support 70B+ full tuning & LoRA & Mixtral & KTO).
-- [PaLM + RLHF - Pytorch](https://github.com/lucidrains/PaLM-rlhf-pytorch)
-  - Phil Wang, Yachine Zahidi, Ikko Eltociear Ashimine, Eric Alcaide
-  - Keyword: Transformers, PaLM architecture
-  - Dataset: [enwik8](http://prize.hutter1.net/)
-- [lm-human-preferences](https://github.com/openai/lm-human-preferences)
-  - Daniel M. Ziegler, Nisan Stiennon, Jeffrey Wu, Tom B. Brown, Alec Radford, Dario Amodei, Paul Christiano, Geoffrey Irving
-  - Keyword: Reward learning for language, Continuing text with positive sentiment, Summary task, Physical  descriptive
-  - Dataset: [TL;DR](https://www.tensorflow.org/datasets/catalog/reddit), [CNN/DM](https://github.com/abisee/cnn-dailymail)
-- [following-instructions-human-feedback](https://github.com/openai/following-instructions-human-feedback)
-  - Long Ouyang, Jeff Wu, Xu Jiang, et al.
-  - Keyword: Large Language Model, Align Language Model with Human Intent
-  - Dataset: [TruthfulQA](https://github.com/sylinrl/TruthfulQA) [RealToxicityPrompts](https://allenai.org/data/real-toxicity-prompts)
-- [Transformer Reinforcement Learning (TRL)](https://github.com/lvwerra/trl)
-  - Leandro von Werra, Younes Belkada, Lewis Tunstall, et al.
-  - Keyword: Train LLM with RL, PPO, Transformer
-  - Task: [IMDB sentiment](https://www.imdb.com/interfaces/)
-- [Transformer Reinforcement Learning X (TRLX)](https://github.com/CarperAI/trlx)
-  - Jonathan Tow, Leandro von Werra, et al.
-  - Keyword: Distributed training framework, T5-based language models, Train LLM with RL, PPO, ILQL
-  - Task: Fine tuning LLM with RL using provided reward function or reward-labeled dataset
-- [RL4LMs (A modular RL library to fine-tune language models to human preferences)](https://github.com/allenai/RL4LMs)
-  - Rajkumar Ramamurthy, Prithviraj Ammanabrolu, Kianté,Brantley, Jack Hessel, Rafet Sifa, Christian Bauckhage, Hannaneh Hajishirzi, Yejin Choi
-  - Keyword: Optimizing language generators with RL, Benchmark,  Performant RL algorithm
-  - Dataset: [IMDB](https://www.imdb.com/interfaces/), [CommonGen](https://inklab.usc.edu/CommonGen/), [CNN Daily Mail](https://github.com/abisee/cnn-dailymail), [ToTTo](https://github.com/google-research-datasets/ToTTo), [WMT-16 (en-de)](https://www.statmt.org/wmt16/it-translation-task.html), [NarrativeQA](https://github.com/deepmind/narrativeqa), [DailyDialog](http://yanran.li/dailydialog)
-- [LaMDA-rlhf-pytorch](https://github.com/conceptofmind/LaMDA-rlhf-pytorch)
-  - Phil Wang
-  - Keyword: LaMDA, Attention-mechanism
-  - Task: Open-source pre-training implementation of Google's LaMDA research paper in PyTorch
-- [TextRL](https://github.com/voidful/TextRL)
-  - Eric Lam
-  - Keyword: huggingface's transformer
-  - Task: Text generation
-  - Env: PFRL, gym
-- [minRLHF](https://github.com/thomfoster/minRLHF)
-  - Thomfoster
-  - Keyword: PPO, Minimal library
-  - Task: educational purposes
-- [DeepSpeed-Chat](https://github.com/microsoft/DeepSpeedExamples/tree/master/applications/DeepSpeed-Chat)
-  - Microsoft
-  - Keyword: Affordable RLHF Training
-- [Dromedary](https://github.com/IBM/Dromedary)
-  - IBM
-  - Keyword: Minimal human supervision, Self-aligned
-  - Task: Self-aligned language model trained with minimal human supervision
-- [FG-RLHF](https://finegrainedrlhf.github.io/)
-  - Zeqiu Wu, Yushi Hu, Weijia Shi, et al.
-  - Keyword: Fine-Grained RLHF, providing a reward after every segment, Incorporating multiple RMs associated with different feedback types
-  - Task: A framework that enables training and learning from reward functions that are fine-grained in density and multiple RMs
--[Safe-RLHF](https://github.com/PKU-Alignment/safe-rlhf)
-  - Xuehai Pan, Ruiyang Sun, Jiaming Ji, et al.
-  - Keyword: Support popular pre-trained models, Large human-labeled dataset, Multi-scale metrics for safety constraints verification, Customized parameters
-  - Task: Constrained Value-Aligned LLM via Safe RLHF
   
 ## Agent
 ### 2024
